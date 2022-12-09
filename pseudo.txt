@@ -1,0 +1,31 @@
+In this mini-project, you will build a landing page using HTML and CSS. 
+While you will be responsible for your own landing page, you will work in a group to brainstorm and share ideas.
+
+Input:
+    n/a
+
+Output:
+    Landing page that collects a users information
+    Page must have:
+    A header has a navi menu and a footer
+    Image 
+    ?Contact Form
+    polished and accessible UI?
+
+PSEUDO:
+    HEADER
+    Lets start with the header - invisible nav bar 
+    links spread across the page horizontally
+        <li>Contact</li>
+        <li>Our Menus</li> // dropdown
+        <li>Special Offers</li>
+        <li>Map</li>
+        <li>Job Opportunities</li>
+        <li>Gallery</li>
+    logo top left
+    
+    Main Page:
+    6 different sections
+    same as the above 
+
+
