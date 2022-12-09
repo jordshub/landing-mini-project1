@@ -102,6 +102,7 @@ input[type=submit]:hover {
   padding: 20px;
   width: 50%;
   margin: auto;
+  border: 1pt black solid;
 }
 figure{
     width:80%;
