@@ -3,13 +3,17 @@
         scroll-behavior: smooth;
     }
 }
-
-body {
+* {
+    box-sizing: border-box;
     font-family: Helvetica;
+    color: black;
+}
+/* body {
+    
     margin: 0;
     background-image: url("background-img.jpeg");
     background-size: cover;
-}
+} */
 
 header {
     width: 100%;
@@ -17,10 +21,14 @@ header {
     display: flex;
     justify-content: space-between;
     top: 0;
+    position: fixed;
+    background-color: #ccc;
+    color:#1b1b32;
+    z-index: 1;
 }
 
 h1 {
-    color: #dfdfe2;
+    
     font-size: 25px;
     display: inline;
     position: relative;
@@ -34,6 +42,7 @@ nav {
 
     margin: none;
     padding: none;
+    
 }
 
 nav>ul {
@@ -44,24 +53,100 @@ nav>ul {
     padding-inline-start: 0;
     margin-block: 0;
     height: 100%;
+    text-decoration: none;
 }
 
 nav>ul>li {
-    color: #dfdfe2;
+    
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
+    
 }
-
+nav>ul>li>a{
+    text-decoration: none;
+}
 nav>ul>li:hover {
     background-color: #dfdfe2;
     color: #1b1b32;
     cursor: pointer;
 }
 
+input[type=text], select, textarea, input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+figure{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    opacity:0.5;
+    border-radius: 5px;
+    background-color: #dfdfe2;
+}
+figure>img {
+    margin: auto;
+    display: block;
+}
+figure>figcaption{
+    display:block;
+    margin:auto;
+}
+section{
+    
+    width: 80%;
+    margin: auto;
+}
+#section-1, #section-2{
+    margin-top: 100px;
+    background-color:#dfdfe2;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    border: 1pt black solid;
+    background-color: #1b1b32;
+    
+    
+}
 .social-icons {
     font-size: 2rem;
     display: flex;
     justify-content: space-evenly;
-    width: 30%;
+    padding: 5px;
+    
+}
+i{
+    color: white;
 }

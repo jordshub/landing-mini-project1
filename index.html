@@ -16,19 +16,67 @@
         <h1>Company Name</h1>
         <nav>
             <ul>
-                <li>Contact</li>
-                <li>Our Menus</li>
-                <li>Special Offers</li>
-                <li>Map</li>
-                <li>Job Opportunities</li>
+                <li><a href="#our-product">Our Product</a></li>
+                <li><a href="#special-offers">Special Offers</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
                 <li>Gallery</li>
             </ul>
         </nav>
 
     </header>
     
-    <section role="region" aria-labelledby="student-info">
-        <h2 id="contact"></h2>
+        <section role="region" aria-labelledby="our-product" id="section-1">
+            <h2 id="our-product">Our Product</h2>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti veritatis adipisci error ex dolor.
+                Maxime fuga provident deleniti et dolores?</p>
+
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum facere illo possimus porro
+                quidem asperiores deserunt explicabo alias quia?</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, provident! Quasi maiores aliquam
+                excepturi magni nemo corporis cupiditate! Doloremque, enim similique? Deserunt, quasi minima totam illum
+                ea incidunt odio eveniet?</p>
+        </section>
+        <figure>
+            <img src="/assets/product-img.jpeg" id="product-img" alt="image of an iphone">
+            <figcaption>Image of our product</figcaption>
+        </figure>
+        <section role="region" aria-labelledby="special-offers" id="section-2">
+            <h2 id="special-offers">Special Offers</h2>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti veritatis adipisci error ex dolor.
+                Maxime fuga provident deleniti et dolores?</p>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum facere illo possimus porro
+                quidem asperiores deserunt explicabo alias quia?</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, provident! Quasi maiores aliquam
+                excepturi magni nemo corporis cupiditate! Doloremque, enim similique? Deserunt, quasi minima totam illum
+                ea incidunt odio eveniet?</p>
+        </section>
+        <section role="region" aria-labelledby="contact-form">
+            <h2 id="contact-us">Contact Us</h2>
+            <div class="container">
+                <form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">England</option>
+                        <option value="canada">Wales</option>
+                        <option value="usa">Scotland</option>
+                    </select>
+                    <label for="lname">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </section>
 
     <footer>
         <div class="social-icons">
