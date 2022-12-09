@@ -27,5 +27,6 @@ PSEUDO:
     Main Page:
     6 different sections
     same as the above 
+    need to have a specific id so it is linkable
 
 
