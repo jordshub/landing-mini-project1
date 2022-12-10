@@ -7,15 +7,11 @@
 * {
     box-sizing: border-box;
     font-family: Helvetica;
-    color: black;
 }
 
-/* body {
-    
-    margin: 0;
-    background-image: url("background-img.jpeg");
-    background-size: cover;
-} */
+body {
+    background-color: white;
+}
 
 header {
     width: 100%;
@@ -23,10 +19,10 @@ header {
     display: flex;
     justify-content: space-between;
     top: 0;
+    left: 0;
     position: fixed;
     background-color: #ccc;
-    color: #1b1b32;
-    z-index: 1;
+    color: #000000;
 }
 
 h1 {
@@ -35,6 +31,10 @@ h1 {
     display: inline;
     position: relative;
     left: 50px;
+}
+
+h2 {
+    text-align: center;
 }
 
 nav {
@@ -68,6 +68,7 @@ nav>ul>li {
 
 nav>ul>li>a {
     text-decoration: none;
+    color: black;
 }
 
 nav>ul>li:hover {
@@ -105,7 +106,6 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-
     padding: 20px;
     width: 50%;
     margin: auto;
@@ -113,27 +113,29 @@ input[type=submit]:hover {
 }
 
 figure {
+    margin-top: 100px;
     width: 80%;
+    color: white;
     display: flex;
-    flex-direction: column;
     margin: auto;
-    opacity: 0.5;
-    border-radius: 5px;
-    background-color: #dfdfe2;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #0000ff;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 figure>img {
     margin: auto;
-    display: block;
+    max-width: 50%;
 }
 
 figure>figcaption {
-    display: block;
     margin: auto;
+    padding: 15px;
 }
 
 section {
-
     width: 80%;
     margin: auto;
 }
@@ -141,17 +143,20 @@ section {
 #section-1,
 #section-2 {
     margin-top: 100px;
-    background-color: #dfdfe2;
+    margin-bottom: 50px;
+    background-color: #0000ff;
+    color: white;
     opacity: 0.8;
-    border-radius: 5px;
+    padding: 1%;
+    border-radius: 10px;
 }
 
 footer {
     position: relative;
     bottom: 0px;
     width: 100%;
-    border: 1pt black solid;
-    background-color: #1b1b32;
+    border: 1pt rgb(3, 12, 138) solid;
+    background-color: #4d4dcf;
     margin: 20px 0px 0px 0px;
 
 }
@@ -161,11 +166,17 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
-    
+}
 
+.fab:hover {
+    color: #e74e4e;
+    cursor: pointer;
+}
+
+a:visited {
+    color: green;
 }
 
 i {
     color: white;
 }
-
