@@ -1,5 +1,5 @@
-# Testing-project-1
-This is a repo that is being used as a test for the first project of the edx bootcamp. 
+# landing-mini-project1
+This is a repo that is being used for the first group mini project of the edx bootcamp. 
 
 # Unit 01 Mini-Project: Landing Page
 
